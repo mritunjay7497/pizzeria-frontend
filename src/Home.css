@@ -1,0 +1,143 @@
+.heading {
+  text-align: center;
+  padding: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.inner_section {
+  padding: 0px;
+}
+
+.img-responsive {
+  height: 300px;
+  width: 450px;
+  padding: 0px;
+}
+
+.second-element {
+  padding-top: 40px;
+}
+
+.third-element {
+  padding-top: 100px;
+}
+
+.footer-m {
+  text-align: center;
+}
+
+.card-head {
+  height: 300px;
+  width: 500px;
+}
+
+.topping-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.order-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+.button-bg{
+  background-color:yellow;
+  text-decoration-color:black ;
+}
+
+.button-bg-cart{
+  background-color:red;
+  text-decoration-color:black ;
+}
+
+.side-by-side{
+  float: left;
+}
+
+.cart-img{
+  object-fit: cover;
+}
+
+.button-bg-cart1{
+  background-color:yellow;
+  text-decoration-color:black ;
+}
+
+.button-bg-cart2{
+  background-color:red;
+  text-decoration-color:white;
+}
+
+.go-button{
+  background-color: rgb(126, 126, 250);
+  text-decoration:red;
+}
+
+/* styling */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* not to use */
+.in{
+    width: 200px;
+    height:150px;
+    float: right;
+}
+.in1{
+    width: 200px;
+    height:250px;
+    float:left;
+}
+.in2{
+    width: 200px;
+    height:150px;
+    float: right;
+}
+.out{
+    width:550px;
+    height:200px;
+    border:1px solid rgb(180, 177, 177); 
+    padding: 15px;
+    margin-left:auto;
+    border-radius: 25px;
+}
+.split {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 70px;
+}
+
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+  }
+  .splitr {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 70px;
+  }
+.okay{
+    display: inline;
+    list-style-type: none;
+}
+
+.but{
+    display: inline-block;
+    width: 50%;
+}
+
+
+
