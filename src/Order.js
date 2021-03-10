@@ -17,7 +17,7 @@ export default class Order extends Component {
 
   componentDidMount() {
     axios
-      .get(`http://localhost:4000/pizza/pizza-menu`)
+      .get('https://mernpizzeria.herokuapp.com/pizza/pizza-menu')
       .then((resp) => {
         // console.log(resp.data);
         this.setState({ order: resp.data });
