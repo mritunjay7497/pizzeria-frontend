@@ -15,7 +15,7 @@ export default class Build extends Component {
   }
   componentDidMount() {
     axios
-      .get(`http://localhost:4000/pizza/toppings`)
+      .get(`https://mernpizzeria.herokuapp.com/pizza/toppings`)
       .then((resp) => {
         // console.log(resp.data);
         this.setState({ topping: resp.data });
